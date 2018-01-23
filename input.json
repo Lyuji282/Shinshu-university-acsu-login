@@ -1,0 +1,9 @@
+{
+  "setting":{
+    "student_id":"99y9999s",
+    "password":"",
+    "headless":0,
+    "browser_path":"/Applications/googlechrome.app/Contents/MacOS/Google Chrome",
+    "chromedriver_path":""
+  }
+}
