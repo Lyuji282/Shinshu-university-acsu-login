@@ -20,3 +20,10 @@ mac用とwindows用がありますので、お使いの環境に合わしてダ�
 
 また、input.jsonのheadlessを0以外の値に変更すると、GUI描写を止めることが可能です。
 プラウザが自動で動いていることを確認する必要のない場合は、変更してください。
+
+
+## Pythonの環境構築
+上記の説明はPythonが起動できる環境が構築されていることを前提としています。
+Pythonの環境が構築されていない方は、[こちら](https://qiita.com/t2y/items/2a3eb58103e85d8064b6)のサイトなどを参考に[anaconda](https://www.anaconda.com/download/#macos)での構築を推奨します。
+
+また、anacondaでの設定完了後は、``pip install selenium``でseleniumのライブラリーもインストールしてください。
