@@ -23,6 +23,8 @@ mac用とwindows用がありますので、お使いの環境に合わしてダ�
 プラウザが自動で動いていることを確認する必要のない場合は、変更してください。
 
 
+上記の設定完後、comp_acsu_connect_network.pyのプログラムを起動してください。
+
 ## Pythonの環境構築
 上記の説明はPythonが起動できる環境が構築されていることを前提としています。
 Pythonの環境が構築されていない方は、[こちら](https://qiita.com/t2y/items/2a3eb58103e85d8064b6)のサイトなどを参考に[anaconda](https://www.anaconda.com/download/#macos)での構築を推奨します。
