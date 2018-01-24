@@ -19,7 +19,7 @@ mac用とwindows用がありますので、お使いの環境に合わしてダ�
 お好きな場所に保存した後、input.jsonの内のchromedriver_pathにパスを割り当ててください。
 
 
-また、input.jsonのheadlessを0以外の値に変更すると、GUI描写を止めることが可能です。
+また、input.jsonのheadlessを1に変更すると、GUI描写を止めることが可能です。
 プラウザが自動で動いていることを確認する必要のない場合は、変更してください。
 
 
