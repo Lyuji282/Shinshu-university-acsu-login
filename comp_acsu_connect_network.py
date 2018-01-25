@@ -56,6 +56,7 @@ def browsing_automation():
         driver.get(mypage)
         network_button = WebDriverWait(driver, timeout_time).until(EC.element_to_be_clickable((By.XPATH, network_xpath)))
         network_button.click()
+        time.sleep(2)
         display_message("You can use the acsu wifi now!")
         driver.quit()
     except:
