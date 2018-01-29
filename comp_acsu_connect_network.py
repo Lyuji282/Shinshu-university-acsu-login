@@ -72,7 +72,6 @@ def main():
         url_initialize()
         browsing_automation()
     except:
-        
         logger.debug(traceback.format_exc())
         display_message("Unexpected error happened.")
     
