@@ -60,7 +60,7 @@ def browsing_automation():
         display_message("You can use the acsu wifi now!")
         driver.quit()
     except:
-        traceback.format_exc()
+        logger.debug(traceback.format_exc())
         driver.quit()
         display_message("You need to wait a moment to find the acsu wifi!")
         
@@ -72,7 +72,8 @@ def main():
         url_initialize()
         browsing_automation()
     except:
-        traceback.format_exc()
+        
+        logger.debug(traceback.format_exc())
         display_message("Unexpected error happened.")
     
 if __name__ == '__main__':
