@@ -4,6 +4,10 @@
 このPythonプログラムを使えば、握手に自動でログインし、Wifiを繋げることが出来ます。
 毎日図書館などで、握手Wifiを利用している方はぜひお使いください。
 
+##デモ動画
+![result](https://github.com/Lyuji282/Shinshu-university-acsu-login/blob/master/demo.gif)
+
+
 ## 使い方
 まず、`` git clone ``か``download``で全てのファイルをダウンロードします。
 
@@ -30,3 +34,6 @@ mac用とwindows用がありますので、お使いの環境に合わしてダ�
 Pythonの環境が構築されていない方は、[こちら](https://qiita.com/t2y/items/2a3eb58103e85d8064b6)のサイトなどを参考に[anaconda](https://www.anaconda.com/download/#macos)での構築を推奨します。
 
 また、anacondaでの設定完了後は、``pip install selenium``でseleniumのインストールも必要です。
+
+## その他
+不具合等はissueへ報告お願いします。
