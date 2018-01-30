@@ -4,7 +4,7 @@
 このPythonプログラムを使えば、握手に自動でログインし、Wifiを繋げることが出来ます。
 毎日図書館などで、握手Wifiを利用している方はぜひお使いください。
 
-##デモ動画
+## デモ動画
 ![result](https://github.com/Lyuji282/Shinshu-university-acsu-login/blob/master/demo.gif)
 
 
