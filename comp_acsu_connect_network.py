@@ -16,7 +16,7 @@ def set_base_directory():
 
 def set_login_information():
     global LOGIN_ID,PASSWORD,setting_json
-    setting_json = open('myinput.json','r')
+    setting_json = open('input.json','r')
     setting_json = json.load(setting_json)
     LOGIN_ID = setting_json['setting']['student_id']
     PASSWORD = setting_json['setting']['password']
